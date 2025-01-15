@@ -1,0 +1,4 @@
+theme: tokyo-night
+layout: horizontal
+response:
+  prettify-json: true

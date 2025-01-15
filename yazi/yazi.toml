@@ -1,0 +1,10 @@
+# yazi.toml
+[manager]
+show_hidden = true
+ratio = [2, 3, 4]
+show_symlink = true
+scrolloff = 20
+
+[preview]
+max_width = 2000
+max_height = 5000
