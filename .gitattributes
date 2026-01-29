@@ -1,0 +1,6 @@
+# Keep repo line endings consistent
+* text=auto eol=lf
+
+# These should always be lf
+*.json text eol=lf
+whkdrc text eol=lf

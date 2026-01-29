@@ -1,0 +1,130 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.39/schema.json",
+  "app_specific_configuration_path": "$Env:USERPROFILE/.config/komorebi/applications.json",
+  "window_hiding_behaviour": "Cloak",
+  "cross_monitor_move_behaviour": "Insert",
+  "default_workspace_padding": 0,
+  "default_container_padding": -1,
+  "mouse_follows_focus": false,
+  "border": true,
+  "border_width": 4,
+  "border_offset": -1,
+  "border_style": "System",
+  "monitors": [
+    {
+      "workspaces": [
+        {
+          "name": "Game",
+          "layout": "BSP",
+          "initial_workspace_rules": [
+            {
+              "kind": "Exe",
+              "id": "steam.exe",
+              "matching_strategy": "Equals"
+            },
+            {
+              "kind": "Exe",
+              "id": "steamwebhelper.exe",
+              "matching_strategy": "Equals"
+            }
+          ]
+        },
+        {
+          "name": "Workspace",
+          "layout": "BSP",
+          "initial_workspace_rules": [
+            {
+              "kind": "Exe",
+              "id": "WindowsTerminal.exe",
+              "matching_strategy": "Equals"
+            },
+            {
+              "kind": "Exe",
+              "id": "wezterm-gui.exe",
+              "matching_strategy": "Equals"
+            },
+            {
+              "kind": "Exe",
+              "id": "notepad.exe",
+              "matching_strategy": "Equals"
+            },
+            {
+              "kind": "Exe",
+              "id": "notepad++.exe",
+              "matching_strategy": "Equals"
+            },
+            {
+              "kind": "Exe",
+              "id": "Code.exe",
+              "matching_strategy": "Equals"
+            },
+            {
+              "kind": "Exe",
+              "id": "ModOrganizer.exe",
+              "matching_strategy": "Equals"
+            },
+            {
+              "kind": "Exe",
+              "id": "Obsidian.exe",
+              "matching_strategy": "Equals"
+            }
+          ]
+        },
+        {
+          "name": "Web",
+          "layout": "BSP",
+        },
+        {
+          "name": "Social",
+          "layout": "BSP",
+          "initial_workspace_rules": [
+            {
+              "kind": "Exe",
+              "id": "Discord.exe",
+              "matching_strategy": "Equals"
+            },
+            {
+              "kind": "Exe",
+              "id": "OUTLOOK.EXE",
+              "matching_strategy": "Equals"
+            },
+            {
+              "kind": "Exe",
+              "id": "olk.exe",
+              "matching_strategy": "Equals"
+            }
+          ]
+        },
+        {
+          "name": "Music",
+          "layout": "BSP",
+          "initial_workspace_rules": [
+            {
+              "kind": "Exe",
+              "id": "Spotify.exe",
+              "matching_strategy": "Equals"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animation": {
+    "enabled": true,
+    "duration": 150,
+    "fps": 240,
+    "style": "EaseOutSine"
+  },
+  "stackbar": {
+	"label": "Process",
+    "height": 40,
+    "mode": "OnStack",
+    "tabs": {
+      "width": 300,
+    }
+  },
+  "theme": {
+	"name": "Macchiato",
+	"palette": "Catppuccin"
+  }
+}
